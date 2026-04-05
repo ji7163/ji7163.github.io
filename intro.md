@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 소개
-permalink: /about/
+title: Intro
+permalink: /intro/
 ---
 
 안녕하세요! 방문해 주셔서 감사합니다.

@@ -14,5 +14,5 @@ future: true
 timezone: "Asia/Seoul"
 
 header_pages:
-  - about.md
+  - intro.md
   - posts.md

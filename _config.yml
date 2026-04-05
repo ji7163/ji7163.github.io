@@ -13,3 +13,7 @@ plugins:
   - jekyll-feed
 future: true
 timezone: "Asia/Seoul"
+
+header_pages:
+  - about.md
+  - posts.md

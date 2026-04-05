@@ -11,3 +11,5 @@ github_username: ji7163
 theme: minima
 plugins:
   - jekyll-feed
+future: true
+timezone: "Asia/Seoul"

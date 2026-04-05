@@ -1,11 +1,13 @@
 ---
 layout: page
+title: Post
 permalink: /posts/
 ---
 
-## 전체 목록
-
+<div class="post-list">
+<ul>
 {% for post in site.posts %}
-
-- {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url | relative_url }})
+<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
 {% endfor %}
+</ul>
+</div>

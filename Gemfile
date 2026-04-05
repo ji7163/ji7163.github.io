@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
 gem "jekyll"
+gem "ffi", "1.15.5" # macOS 기본 Ruby(2.6) 호환성을 위해 버전 고정
+gem "jekyll-sass-converter", "~> 2.2" # 사스 컨버터의 호환성 버그 우회
 
 # This is the default theme for new Jekyll sites.
 gem "minima", "~> 2.5"
